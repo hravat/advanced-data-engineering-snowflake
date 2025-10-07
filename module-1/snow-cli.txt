@@ -1,0 +1,5 @@
+snow git execute @ADVANCED_DATA_ENGINEERING_SNOWFLAKE/branches/main/module-1/hamburg_weather/pipeline/data/load_tasty_bytes.sql 
+-D "env='STAGING'" --database=COURSE_REPO --schema=PUBLIC
+
+snow git execute @ADVANCED_DATA_ENGINEERING_SNOWFLAKE/branches/main/module-1/hamburg_weather/pipeline/objects/ 
+-D "env='STAGING'" --database=COURSE_REPO --schema=PUBLIC
